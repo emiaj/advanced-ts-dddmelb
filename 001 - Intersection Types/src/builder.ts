@@ -3,8 +3,8 @@ export class Builder<T extends any = {}> {
     constructor(private obj: T = null) {
     }
 
-    extend<V>(value: V): Builder<T & V> {
-        return new Builder(Object.assign({}, this.obj, value));
+    extend<E>(extension: E): Builder<T & E> {
+        return new Builder(Object.assign({}, this.obj, extension));
     }
 
     build(): T {

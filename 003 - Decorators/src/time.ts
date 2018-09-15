@@ -1,3 +1,4 @@
+
 export function time(clazz: Function,
     methodName: string,
     methodDescriptor: PropertyDescriptor) {

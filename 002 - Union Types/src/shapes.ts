@@ -1,8 +1,5 @@
 
 // Shapes
-interface Kind<T> {
-    kind: T
-}
 
 export const circle = 'circle';
 export type Circle = {
@@ -78,4 +75,4 @@ export function createHexagon(side: number): Hexagon {
 }
 
 // Shape
-export type Shape = Circle | Rectangle | Triangle | Square;
+export type Shape = Circle | Rectangle | Triangle | Square | Hexagon;

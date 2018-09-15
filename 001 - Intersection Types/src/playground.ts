@@ -9,6 +9,7 @@ const obj = new Builder()
     // Builder<{givenName:string} & {familyName:string} & {age:number}>
     .extend({ age: 28 })
     // {givenName:string} & {familyName:string} & {age:number}
+    .extend({conference:'DDD Melbourne'})
     .build();
 
 console.clear();
@@ -16,4 +17,6 @@ console.clear();
 console.log(obj.givenName);
 console.log(obj.familyName);
 console.log(obj.age);
+
+
 

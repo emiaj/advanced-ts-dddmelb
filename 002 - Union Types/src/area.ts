@@ -15,10 +15,8 @@ export function area(shape: Shapes.Shape) {
             return Math.sqrt(p * (p - shape.a) * (p - shape.b) * (p - shape.c));
         case Shapes.square:
             return Math.pow(shape.side, 2);
-        /*
         case Shapes.hexagon:
             return 1.5 * Math.sqrt(3) * Math.pow(shape.side, 2);
-        */
     }
 
     exhaustCheck(shape);

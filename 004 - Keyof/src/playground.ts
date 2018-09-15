@@ -14,14 +14,14 @@ const employee: Employee = {
 };
 
 printProp(company, 'name');
-printProp(company, 'address'); // uh?
+printProp(company, 'numberOfEmployees'); // uh?
 
 printProp(employee, 'name');
-printProp(employee, 'salary'); // uh?
+printProp(employee, 'age'); // uh?
 
 
 setProp(company, 'name', 'Company X');
-setProp(company, 'numberOfEmployees', '100'); // uh?
+setProp(company, 'numberOfEmployees', 100); // uh?
 
 setProp(employee, 'name', 'Jane Doe');
-setProp(employee, 'salary', 28); // uh?
+setProp(employee, 'age', 28); // uh?
